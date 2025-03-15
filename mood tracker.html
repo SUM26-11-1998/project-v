@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Mood Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Mood Tracker</h1>
+    <p>Select your mood for today:</p>
+    <div class="mood-container">
+      <div class="mood" data-mood="happy" data-color="#ffeb3b">
+        <span class="emoji">😊</span>
+        <span class="label">Happy</span>
+      </div>
+      <div class="mood" data-mood="sad" data-color="#2196f3">
+        <span class="emoji">😢</span>
+        <span class="label">Sad</span>
+      </div>
+      <div class="mood" data-mood="excited" data-color="#ff9800">
+        <span class="emoji">😄</span>
+        <span class="label">Excited</span>
+      </div>
+      <div class="mood" data-mood="calm" data-color="#4caf50">
+        <span class="emoji">😌</span>
+        <span class="label">Calm</span>
+      </div>
+    </div>
+    <button id="darkModeToggle">Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
